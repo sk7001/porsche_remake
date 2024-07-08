@@ -1,3 +1,8 @@
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .top-video{
     width: 100%;
     display: flex;
@@ -5,6 +10,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    position: fixed;
 }
 .top-video h1{
     position: absolute;
@@ -22,4 +28,13 @@
 .top-video video{
     opacity: 0.7;
     z-index: 0;
+}
+.content{
+    position: relative;
+    top: 100vh;
+    background-color: rgba(255, 255, 255, 0.751);
+    transition: 1s;
+}
+.content:hover{
+    background-color: rgb(255, 255, 255);
 }

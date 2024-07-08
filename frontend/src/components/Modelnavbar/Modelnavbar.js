@@ -1,20 +1,18 @@
-import React from 'react'
-import './Modelnavbar.css'
+import React from 'react';
+import './Modelnavbar.css';
 
 export default function Modelnavbar() {
-  return (
-    <div >
-        <nav className="model-navbar">
-        <a className="navbar-brand" href="#">718</a>
+  const models = ['718', '911', 'Taycan', 'Panamera', 'Macan', 'Cayenne'];
 
-            <a className="navbar-brand" href="#">911</a>
-            <a className="navbar-brand" href="#">Taycan</a>
-            <a className="navbar-brand" href="#">Panamera</a>
-            <a className="navbar-brand" href="#">Macan</a>
-            <a className="navbar-brand" href="#">Cayenne</a>
-            <a className="navbar-brand" href="#">Cayman</a>
-            <a className="navbar-brand" href="#">Boxster</a>
-        </nav>
+  return (
+    <div>
+      <nav className="model-navbar">
+        {models.map((model, index) => (
+          <a className="navbar-brand" href="#" key={index}>
+            {model}
+          </a>
+        ))}
+      </nav>
     </div>
-  )
+  );
 }
