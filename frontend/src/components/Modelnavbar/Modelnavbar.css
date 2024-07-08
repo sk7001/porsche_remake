@@ -1,0 +1,17 @@
+.model-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding: 15px;
+    font-size: 20px;
+}
+.model-navbar .navbar-brand{
+    padding: 10px 42px;
+    border-radius: 15px;
+    transition: 200ms;
+    width: 100%;
+}
+.model-navbar .navbar-brand:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(230, 230, 230);
+}
