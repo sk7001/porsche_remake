@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route>
-            <Route path="/porsche_remake" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
             <Route path='/Models' element={<Model/>}/>
             <Route path="/Purchase" element={<Purchase/>} />
           </Route>

@@ -7,7 +7,7 @@ function Homenavbar() {
   return (
     <div className='homenavbar'>
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Navbar.Brand href="/porsche_remake" style={{ fontFamily: "arial"}}>
+      <Navbar.Brand href="/" style={{ fontFamily: "arial"}}>
       <img src={require('../../assets/images/logo.png')} alt="Porsche" height="30" className="d-inline-block align-top" />
       <img src={require('../../assets/images/nameimg.jpeg')} alt="Porsche" height="20"/>
       </Navbar.Brand>
