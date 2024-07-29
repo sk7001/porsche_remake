@@ -8,7 +8,7 @@ export default function Modelnavbar() {
     <div>
       <nav className="model-navbar">
         {models.map((model, index) => (
-          <a className="navbar-brand" href="#" key={index}>
+          <a className="navbar-brand" href="/" key={index}>
             {model}
           </a>
         ))}
