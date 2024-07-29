@@ -17,11 +17,11 @@ function Homenavbar() {
           <Nav.Link href="/Models">Models</Nav.Link>
           <Nav.Link href="/Purchase">Purchase</Nav.Link>
           <NavDropdown title="More" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Services</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Experience</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Find a dealer</NavDropdown.Item>
+            <NavDropdown.Item href="/">Services</NavDropdown.Item>
+            <NavDropdown.Item href="/">Experience</NavDropdown.Item>
+            <NavDropdown.Item href="/">Find a dealer</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown.Item href="/">Separated link</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
